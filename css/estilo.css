@@ -26,8 +26,19 @@ p{
 
 #texto2{
 
-    font-size: 14px
+    font-size: 14px ;   
 }
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row; /* por defecto es row , pero si queremos que se ponga en columna pondriamos column*/
+    justify-content: center; /* para centrar los elementos en el eje principal*/
+    flex-wrap: wrap;    /* para que los elementos puedan saltar a la siguiente linea si no caben en la primera*/
+    gap: 20px;  /* para poner un espacio entre los elementos , en este caso de 20px*/
+
+
+/*
 
 .contenedor{
     display: flex;
@@ -37,14 +48,14 @@ p{
 
 
 
-}
+} */
 
 .cajita{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: white;
+    display: flex;     /* para que el texto se centre dentro de la caja*/
+    justify-content: center;    /* para centrar el texto en el eje principal*/
+    align-items: center;            /* para centrar el texto en el eje transversal*/
+    background-color: black;                            
+    color: white;   
     width: 100px;
     height: 100px;
 
@@ -56,6 +67,27 @@ p{
     las cosas que hemos puesto <div class="cajita" id="elemento1">*/
 
     background-color: red;
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+#elemento2{   
+
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#elemento3{   
+
+    background-color: blue;
     color: white;
     font-size: 24px;
     margin: 10px;
