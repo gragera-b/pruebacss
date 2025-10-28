@@ -30,12 +30,35 @@ p{
 }
 
 .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
 
-    
+
+
 }
 
 .cajita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
 
 
 
+}
+
+#elemento1{    /*aqui cogemos el id que hemos puesto , que sería el que cogeria primero , para diferencias 
+    las cosas que hemos puesto <div class="cajita" id="elemento1">*/
+
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
 }
